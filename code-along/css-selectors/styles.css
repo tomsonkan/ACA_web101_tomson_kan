@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: peru;
+}
+div{
+    background: red;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+}
+#yellow {
+    color: yellow;
+}
+h3 {
+    display: inline-block; 
+    margin-right: 10px;
+    margin: 0 20px 0 0 ;
+}
+h3:hover{
+    color: white
+}
+p {display: inline-block; 
+
+}
+p:nth-of-type(2) {
+    font-size: 10px;
+}
+
+.content {
+    text-align: left;
+    padding: 0 0 0 10px;
+    color: green;
+    font-weight: bold;
+
+}
+input [date] {
+    font-size: 60 px;
+    background: red; 
+    border: 4px solid green
+}
