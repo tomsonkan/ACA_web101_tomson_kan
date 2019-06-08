@@ -1,20 +1,21 @@
 h1 {
-    font size: 10;
-    margin: 5% 25%;
+    font-size: 40;
+    font-family: arial;
+    margin: 3% 25%;
 }
 body {
     height: 100%;
     width: 100%;
-    background: white;
+    background: rgba(235, 223, 223, 0.925);
 }
 .blog {
     width: 500px;
 
 }
 .main-container {
-    height: 112%;
+    height: 120%;
     width: 50%;
-    border: 1px solid gray;
+    border: 10px solid rgb(173, 173, 236);
     margin: 0% 25%;
     
 }
@@ -22,22 +23,41 @@ body {
 .blogs-container {
     height: 100%;
     width: 100%;
-    border: 2px solid green
+    border: 2px brown   ;
+
 }
 
 .blog {
     height: 100px;
     width: 97%;
     border: 2px dotted blue;
-    margin: 1% auto;
-    background: green;
+    margin: 2% auto;
+    background: whitesmoke;
     filter: drop-shadow(-.5em .4em .4em
-     rgb(37, 37, 37))
+     rgb(160, 113, 113))
 }
 
 .title {
     color: blue;
     font-weight: bold;
-    font-size: 25;
-    margin: 1%;
+    font-size: 20;
+    margin: 1% ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.date {
+    margin:1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.content {
+    margin:1%
+}
+
+#content {
+    margin:1%
+}
+
+#content:hover {
+    color:darkgray;
 }
