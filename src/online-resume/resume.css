@@ -17,7 +17,7 @@ header h1{
 
 header h2{
     text-align: left;
-    font-size: 10px;
+    font-size: 20px;
     padding: 1px
 }
 
@@ -28,7 +28,7 @@ body {
 
 }
 .resume-container > div {
-    border: 2px solid rgb(233,171,88);
+    border-right: 2px solid rgb(233,171,88);
     border-radius: 5px;
     padding: 1em;
     color: #d9480f;
@@ -37,7 +37,7 @@ body {
 
 .resume-container {
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: 4;
     grid-gap: 10px;
     grid-template-rows: 50px auto;
     
@@ -88,4 +88,5 @@ body {
     grid-column: 1 / 6;
     grid-row: 3; 
     text-align: center;
+    margin: 5%;
 }
