@@ -28,7 +28,7 @@ body {
 
 }
 .resume-container > div {
-    border-right: 2px solid rgb(233,171,88);
+    
     border-radius: 5px;
     padding: 1em;
     color: #d9480f;
@@ -74,6 +74,7 @@ body {
 }
 
 .experience {
+    border-right: 2px solid rgb(233,171,88);
     grid-column: 1 / 4;
     grid-row: 2 ;
 }
@@ -88,5 +89,5 @@ body {
     grid-column: 1 / 6;
     grid-row: 3; 
     text-align: center;
-    margin: 5%;
+    margin: 10%;
 }
