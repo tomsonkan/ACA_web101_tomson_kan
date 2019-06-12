@@ -14,7 +14,7 @@ body {
 
 }
 .main-container {
-    height: 135%;
+    height: 145%;
     width: 50%;
     border: 10px solid rgb(173, 173, 236);
     margin: 0% 25%;
@@ -22,7 +22,7 @@ body {
 }
 
 .blogs-container {
-    height: 150%;
+    height: 200%;
     width: 100%;
     border: 2px brown;
 
