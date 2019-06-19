@@ -1,6 +1,8 @@
 body {
-  padding-top: 20px;
+  padding-top: 10px;
   background: #f5f7f8;
+  border: dashed black;
+
 }
 
 .grid-1 {
@@ -28,7 +30,7 @@ body {
 
 .item-1 {
   background-image: url("chips.png");
-  border: dotted blue;
+  border: dashed blue;
   grid-area: header;
 }
 .item-2 {
@@ -64,6 +66,7 @@ body {
 }
 .item-7 {
   background-image: url("nuts.png");
+  border: dashed green;
   background-size: cover;
   grid-area: sidebar;
 }
