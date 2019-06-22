@@ -1,0 +1,56 @@
+* {
+  margin: 2px;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.container {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 400px; 
+  grid-gap: 20px;
+  grid-template-areas: "main     main     main"
+                       "main     main     main"
+                       
+}
+
+.item1 {
+  background-image: url(nasa.jpg);
+  grid-area: main;
+  background-size: cover;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding: 300px;
+}
+
+.item3 > .officeinfo {
+list-style-type:none;
+}
+
+.socialmedia {
+  list-style-type:none;
+  }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  background: rgb(192, 177, 177)
+}
+
+label {
+  display: block;
+}
+
+.tel {
+  height: 100px;
+}
+
+.border {
+  /* border: 1px solid black; */
+  height: 100%;
+}
