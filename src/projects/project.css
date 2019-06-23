@@ -75,6 +75,13 @@ main {
   grid-template-rows: 65% 35%;
 }
 
+.project2 {
+  background: url ('http://unsplash.it/random');
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 65% 35%;
+}
+
 .project-header {
   grid-row: 2;  
   grid-column: 1/2;
