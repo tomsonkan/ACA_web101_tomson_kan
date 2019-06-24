@@ -239,8 +239,8 @@ body  {
 
 .sidebar {
 text-align: center;
-height: 80px;
 width: 96%;
+height: 100px;
 align-items: center;
 vertical-align: middle;
 }
@@ -255,7 +255,7 @@ display: flexbox;
   rgb(185, 156, 156));
   margin: -15px;
   border-radius: 5%;
-  height: 250%;
+  height: 200%;
   line-height: 40px;
 }
 
