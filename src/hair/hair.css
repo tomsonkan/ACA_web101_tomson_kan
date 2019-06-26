@@ -239,3 +239,31 @@ li {
   background-color: rgb(38, 136, 175);
 
 }
+
+@media (max-width: 480px) {
+
+  .container1 {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .action:hover li {
+    display: block;
+    filter: drop-shadow(-.5em .9em .4em
+    rgb(185, 156, 156));
+    border-radius: 5%;
+  
+  }
+
+  .action > li {
+    display: none;
+    height: 35px;
+    width: 150px;
+    position:right;
+    background-color: #c2d6b6;
+    min-width: 60px;
+    box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 56px;
+    z-index: 1;
+  }
