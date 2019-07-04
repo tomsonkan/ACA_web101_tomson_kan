@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+  border-top: 7px solid rgb(73, 73, 95);
+  border-radius: 1%;
+  background-color: aliceblue
+}
+
+.container h1 {
+  font-size: 20px;
+}
+
+.para {
+  margin-top: 30px;
+}
+.para2 {
+  margin-top: 30px;
+}
+
+.para2 a {
+  color: blue;
+  text-decoration: none;
+}
+
+.para2 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+  height: 30px;
+  width: 95px;
+  background-image: linear-gradient(rgb(64, 150, 64),rgb(189, 189, 38));
+  border-radius: 15%;
+  color: white;
+}
+
+button:hover {
+  margin-top: 20px;
+  height: 30px;
+  width: 95px;
+  background-image: linear-gradient(rgb(64, 118, 150),rgb(189, 73, 38));
+  border-radius: 15%;
+  color: white;
+}
+
