@@ -1,0 +1,318 @@
+/* 
+really great work! the grid is solid.
+one minor thing i see you can fix is the .head div is going a lil over the black dotted line. 
+if you remove the width, it'll be fine. 
+you set the width for that .head column in the .main-container div via
+grid-template-* so no need to set the width of the child elements.
+*/
+body {
+  padding-top: 5px;
+  background: #f5f7f8;
+  border: dashed black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.main-container {
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: 0.5fr auto auto;
+  /* grid-template-columns: repeat (3 , 1fr); */
+  grid-template-rows: 200px 400px 400px 300px;
+  grid-template-areas: "sidebar   header   header"
+                        "sidebar   main    main"
+                        "sidebar   main    main"
+                        "sidebar  footer   footer";
+
+}
+
+.links {
+  height: 10px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.links > li {
+  padding: 10px;
+  border: 4px solid red;
+  border-radius: 40%;
+}
+
+.head {
+  grid-area: header;
+  border: solid black;
+  /* can remove this width. see notes above */
+  width: 100%;
+  text-align: center;
+  background-image: url("/src/Projects/images/header.jpg");
+  background-size:cover;
+}
+
+.sidebar {
+  border: solid red;
+  grid-area: sidebar;
+  padding: 5px;
+  line-height: 70px;
+  background: rgb(209, 209, 218);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.sidebar > h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.left {
+  list-style-type: none;
+  padding: 20px;
+  border-bottom: solid orange;
+}
+
+/* #cards {
+  list-style-image: url("/src/Projects/images/line.jpg");
+} */
+
+.item-1 {
+  background: #33a8a5;
+  padding: 20px;
+  grid-area: main;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  grid-template-areas: "pic1 pic2"
+                       "pic3 pic3"
+}
+
+.item-2 {
+  background: url("/src/Projects/images/line.jpg");
+  grid-area: pic1;
+  border-radius: 10%;
+  background-size: cover;
+}
+
+.item-2:hover {
+  background: url("/src/Projects/images/line.jpg");
+  grid-area: pic1;
+  border-radius: 10%;
+  background-size: cover;
+  margin: -10px;
+}
+
+.item-3 {
+  background: url("/src/Projects/images/pulse.jpg");
+  grid-area: pic2;
+  border-radius: 10%;
+  background-size: cover;
+}
+
+.item-3:hover {
+  background: url("/src/Projects/images/pulse.jpg");
+  grid-area: pic2;
+  border-radius: 10%;
+  background-size: cover;
+  margin:-10;
+}
+
+.item-4 {
+  background: url("/src/Projects/images/stats.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-area: pic3;
+  border-radius: 10%;
+  background-size: auto;
+}
+
+.item-4:hover {
+  background: url("/src/Projects/images/stats.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-area: pic3;
+  border-radius: 10%;
+  background-size: cover;
+  margin:-10px;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.wrapper1 > h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.contact > h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.officeinfo {
+  list-style-type: none;
+  text-align: left;
+}
+
+textarea {
+  height: 50px;
+}
+
+@media (max-width: 656px) {
+
+body  {
+  border: none;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 0.5fr auto ;
+  /* grid-template-columns: repeat (3 , 1fr); */
+  grid-template-rows: 100px 200px 200px 300px;
+  grid-template-areas:  "sidebar header"
+                        "sidebar main"
+                        "sidebar main"
+                        "footer footer";
+  }
+
+.head:hover .links {
+  display: block;
+  filter: drop-shadow(-.5em .9em .4em
+  rgb(185, 156, 156));
+  border-radius: 5%;
+
+}
+
+.head {
+  height:95px;
+  width: 98%;
+}
+
+.links {
+    display: none;
+    height: 250px;
+    width: 150px;
+    position:right;
+    background-color: #c2d6b6;
+    min-width: 60px;
+    box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 56px;
+    z-index: 1;
+  }
+
+.links > li {
+  border: none;
+}  
+
+.item-2 {
+  background-size: cover;
+
+}
+.item-3 {
+  background-size: cover; 
+}
+
+.item-4 {
+  background-size: cover;
+}
+
+.footer {
+  /* in cell mode, the footer would look better if you changed the flex-direction. give it a try but up to you!  */
+  /* flex-direction: column;
+  align-items: center; */
+  font-size: 15px;
+}
+
+.officeinfo {
+  float: left;
+  font-size: 20px;
+}
+
+/* .item-2 {
+  grid-area: main1;
+} */
+
+}
+
+@media (max-width: 480px) {
+
+.main-container {
+    display: block;
+}
+
+.sidebar {
+text-align: center;
+width: 96%;
+height: 100px;
+align-items: center;
+vertical-align: middle;
+}
+
+.sidebar > h1 {
+display: flexbox;
+}
+
+.sidebar:hover .left {
+  display: block;
+  filter: drop-shadow(-.1em -.9em .4em
+  rgb(185, 156, 156));
+  margin: -15px;
+  border-radius: 5%;
+  height: 200%;
+  line-height: 40px;
+}
+
+.left {
+  height: 50px;
+}
+
+.item-1 {
+  display: block;
+  width: 90%;
+  height: 600px;
+}
+
+.item-2 {
+  width: 95%;
+  height: 200px;
+  margin-bottom: 5px; 
+
+}
+.item-3 {
+  width: 95%;
+  height: 200px;
+  margin-bottom: 5px; 
+}
+
+.item-4 {
+  width: 95%;
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 5px; 
+}
+
+.footer {
+  display: block;
+}
+
+
+.left {
+  display: none;
+  height: 350px;
+  width: 150px;
+  position:right;
+  background-color: #c2d6b6;
+  min-width: 60px;
+  box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 56px;
+  z-index: 1;
+}
+}

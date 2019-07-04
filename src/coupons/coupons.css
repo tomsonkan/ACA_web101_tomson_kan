@@ -1,3 +1,5 @@
+/* this needs a lil work but what's important is you tried! 
+AND i can see in your other work, that you understand how to create a grid and that's what matters */
 body {
   padding-top: 10px;
   background: #f5f7f8;
@@ -40,15 +42,17 @@ body {
   grid-template-columns: 1fr 30%;
   grid-template-rows: auto auto;
   grid-gap: 10px;
-  grid-template-areas: "header header"
+  grid-template-areas: "header sale"
                        "article sidebar";
   
 }
 .item-3 {
   background-image: url("chobani.png");
-  background-size: cover;
+  background-size: 130%;
+  border: 7px dashed blue;
   background-position: center;
   grid-area: sidebar;
+  background-repeat: no-repeat;
 }
 .item-4 {
   background-image: url("monster.png");
@@ -56,17 +60,28 @@ body {
 }
 .item-5 {
   background-image: url("bjs.png");
-  background-size: cover;
+  background-size: 70%;
+  background-repeat: no-repeat;
   grid-area: header;
 }
 .item-6 {
   background-image: url("coke.png");
-  background-size: cover;
+  background-size: 105%;
+  background-repeat: no-repeat;
   grid-area: article;
+  margin: 20px;
 }
 .item-7 {
   background-image: url("nuts.png");
   border: dashed green;
   background-size: cover;
   grid-area: sidebar;
+}
+
+.item-8 {
+  grid-area: sale;
+}
+
+.item-8 > p {
+  font-size: 50px;
 }

@@ -6,6 +6,8 @@
 
 .container {
   border: 1px solid red;
+  /* very interesting and it works! but might be a bit overkill */
+  /* you could remove all this grid stuff and add flexbox to .item1 class */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 300px 400px; 
@@ -22,7 +24,14 @@
   color: white;
   font-size: 60px;
   text-align: center;
+  /* if you switch to flex, remove the padding and add the the code below it. */
+  /* completely up to you! */
   padding: 300px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50%; */
 }
 
 .item3 > .officeinfo {
@@ -41,6 +50,14 @@ list-style-type:none;
   padding: 30px;
   background: rgb(192, 177, 177)
 }
+/* you could also put the three divs on top of each other in mobile view with a media query */
+/* test out the code below and adjust to your liking */
+/* @media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+ } */
 
 label {
   display: block;
