@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+  display: grid;
+  margin: 40px;
+  color:gray;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "1 2"
+                       "3 4";
+}
+
+.data {
+  grid-area: 1;
+}
+
+.config {
+  grid-area: 1;
+}
+
+.prox {
+  grid-area: 3;
+}
+
+.sec {
+  grid-area: 3;
+}
+
+.fa {
+  margin-left: -25px;
+  color: rgb(118, 187, 187);
+}
+
+.title {
+  margin-left: 5px;  
+  line-height: 40px;
+  color: rgb(118, 187, 187);
+}
