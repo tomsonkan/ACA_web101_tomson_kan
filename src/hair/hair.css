@@ -67,6 +67,15 @@ ul {
   padding: 10px;
 }
 
+.action li a {
+  text-decoration: none;
+}
+
+.action li a:hover {
+  text-decoration: underline;
+  color: rgb(151, 151, 182);
+}
+
 
 .item1 {
   grid-area: main;
