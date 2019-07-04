@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+  height: 300px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "1 2 3"; 
+  grid-gap: 20px;
+  padding: 5% 10% 10% 10%; 
+  margin-top: 5%; 
+  background: lightgray;
+  
+}
+
+.box {
+  background: white;
+  border-radius: 5%;
+  /* line-height: 50px; */
+  padding-top: 20px;
+  height: 220px;
+  box-shadow: 5px 5px 0 rgba(0,0,0,.075);
+}
+
+.line {
+  border-bottom: 2px solid rgb(71, 131, 71);
+  width: 50%;
+  margin-left: 7%;
+}
+
+.money {
+  margin-left: 7%;
+  font-size: 2rem;
+}
+
+.label {
+  margin-left: 7%;
+}
+
+.sales {
+  margin-left: 7%;
+}
+
+h1 {
+  line-height: 50px;
+}
+
+h2 {
+  line-height: 110px;
+}
+
+.line {
+margin-top: 20px;
+}
