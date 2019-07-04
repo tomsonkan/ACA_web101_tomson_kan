@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+.example1 {
+height: 20px;
+}
+
+
+li {
+  display: inline-block;
+  padding-top: 35px;
+  padding-right: 100px;
+  padding-left: 100px;
+  align-content: center;
+  font-weight: bold;
+}
+
+.ex1{
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  border-top: 2px solid gray;
+  height: 100px;
+
+}
+
+.i {
+  padding-right: 50px;
+}
+
+li:hover{
+  background: #ecdcdc;
+  height: 97px;
+}
+
+.fa {
+  color: rgb(194, 194, 218);
+}

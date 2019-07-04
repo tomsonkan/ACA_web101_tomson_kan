@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+  padding-top: 20px;
+  
+}
+
+.button1 {
+  border: 2px solid blue;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: .75rem;
+  border-radius: 10%;
+  color: aliceblue;
+  background-color: blue;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(193, 193, 211), purple) 
+}
+
+.button2 {
+  border: 2px solid orange;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+  color: aliceblue;
+  background-color: orange;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(221, 155, 31), rgb(241, 241, 9)) 
+}
+
+.button1:hover {
+  border: 2px solid blue;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: .75rem;
+  border-radius: 10%;
+  color:aliceblue;
+  background-color: rgb(121, 121, 172);
+  text-decoration: none;
+  background-image: linear-gradient(rgb(86, 98, 165), rgb(9, 156, 241))
+
+}
+
+.button2:hover {
+  border: 2px solid orange;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10%;
+  color: aliceblue;
+  background-color: orange;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(221, 107, 31), rgb(209, 186, 56)) 
+}
