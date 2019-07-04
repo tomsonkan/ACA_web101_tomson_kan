@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+ .container {
+  border: 1px solid black;
+  height: 300px;
+  padding-left: 10px;
+  padding-top: 30px;
+  background-color: rgb(182, 229, 229)
+}
+
+.container p {
+  padding-left: 40px;
+}
+
+.list {
+  margin-top: 20px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+
+.list li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.list li:before {
+  font-family: 'FontAwesome';
+  content: "\f05d";
+  color: rgb(32, 42, 179);
+  margin-right: 10px;
+}
