@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+.container {
+ border: 2px solid rgb(147, 147, 189);
+ margin-top: 15rem;
+ padding-left:500px; 
+ padding-right:500px;
+ background-color: aqua;
+}
+
+.title {
+  border-bottom: 2px solid brown;
+  margin-left: 20px;
+  width: 75%;
+  line-height: 60px;
+  text-align: center;
+}
+
+.container p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container input {
+  display: block;
+  margin-left: -25%;
+  margin-top: 2%;
+}
+
+.container button {
+  margin-top: 4%;
+  margin-left: 88%;
+  height: 30px;
+  width: 75px;
+}
+
+.text1 {
+  width: 300px;
+}
+
+.name {
+  width: 150%;
+}
+
+.email {
+  width: 150%;
+}
+
+.message {
+  width: 150%;
+  height: 25%;
+  margin-left: -25%;
+  margin-top: 2%;
+
+}

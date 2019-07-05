@@ -57,7 +57,7 @@ body {
   #profile-pic {
     width: 250px;
     height: 250px;
-    border-radius: 70%;
+    border-radius: 30%;
     margin: 15% auto;
     grid-column: 2/3;
   }
@@ -91,7 +91,7 @@ body {
     font-size: 20px;
     border-radius: 25px;
     background: transparent;
-    padding: 20px; z`
+    padding: 20px; 
     padding-bottom: 5%;
     text-align: center;
     color: white;
