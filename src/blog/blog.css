@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 40;
     font-family: arial;
@@ -36,7 +37,7 @@ body {
     padding: 2px;
     margin: 3% auto;
     background: whitesmoke;
-    transition: all .8s;
+    transition: all .35s;
     filter: drop-shadow(-.5em .4em .4em
      rgb(160, 113, 113))
 }
@@ -66,15 +67,7 @@ body {
     margin:1%
 }
 
-#content1 {
-    margin:1%
-}
-
-#content2 {
-    margin:1%
-}
-
-#content {
+a {
     margin:1%
 }
 
