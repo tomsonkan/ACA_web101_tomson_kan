@@ -11,11 +11,11 @@ body
 }
 
 .container {
- /* border: 2px solid rgb(147, 147, 189); */
+ border: 2px solid rgb(147, 147, 189);
  margin-top: 10rem;
  /* padding-left:10%;  */
  /* padding-right:500px; */
- /* background-color: aqua; */
+ background-color: aqua;
 }
 
 .title {

@@ -98,9 +98,10 @@ body {
     margin: 3% auto;
   }
   
-  button {
+  #portfolio {
     grid-column: 2/3;
-    margin: 3% auto;
+    margin-top: 15%;
+    margin-left: -100%;
     width: 70%;
     height: 15%;
     font-family: Arial, Helvetica, sans-serif;
@@ -108,9 +109,27 @@ body {
     border-radius: 25px;
     background: transparent;
     padding: 20px; 
-    padding-bottom: 8%;
+    padding-bottom: 4%;
     text-align: center;
-    color: white;
+    color: rgb(235, 217, 217);
+    letter-spacing: 16px;
+    font-style: italic;
+  }
+
+  #portfolio:hover {
+    grid-column: 2/3;
+    margin-top: 15%;
+    margin-left: -100%;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: gray;
+    padding: 20px; 
+    padding-bottom: 4%;
+    text-align: center;
+    color: rgb(235, 217, 217);
     letter-spacing: 16px;
     font-style: italic;
   }
