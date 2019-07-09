@@ -41,7 +41,7 @@ body {
   border: solid black;
   width: 100%;
   text-align: center;
-  background-image: url("/src/Projects/images/header.jpg");
+  background-image: url("./images/header.jpg");
   background-size:cover;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .item-2 {
-  background: url("/src/Projects/images/line.jpg");
+  background: url("./images/line.jpg");
   grid-area: pic1;
   border-radius: 10%;
   background-size: cover;
