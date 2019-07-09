@@ -89,7 +89,7 @@ body {
 }
 
 .item-2:hover {
-  background: url("/src/Projects/images/line.jpg");
+  background: url("./images/line.jpg");
   grid-area: pic1;
   border-radius: 10%;
   background-size: cover;
@@ -97,14 +97,14 @@ body {
 }
 
 .item-3 {
-  background: url("/src/Projects/images/pulse.jpg");
+  background: url("./images/pulse.jpg");
   grid-area: pic2;
   border-radius: 10%;
   background-size: cover;
 }
 
 .item-3:hover {
-  background: url("/src/Projects/images/pulse.jpg");
+  background: url("./images/pulse.jpg");
   grid-area: pic2;
   border-radius: 10%;
   background-size: cover;
@@ -112,7 +112,7 @@ body {
 }
 
 .item-4 {
-  background: url("/src/Projects/images/stats.jpg");
+  background: url("./images/stats.jpg");
   background-repeat: no-repeat;
   background-position: center;
   grid-area: pic3;
@@ -121,7 +121,7 @@ body {
 }
 
 .item-4:hover {
-  background: url("/src/Projects/images/stats.jpg");
+  background: url("./images/stats.jpg");
   background-repeat: no-repeat;
   background-position: center;
   grid-area: pic3;
