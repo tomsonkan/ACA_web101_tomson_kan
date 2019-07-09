@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+
+body
+{
+  background-image: url(https://newwallpaperdownload.com/wallpapers/Desktop-Wallpaper-On-Wallpaper-Hd-1.png);
+}
+
+.container {
+ border: 2px solid rgb(204, 204, 224);
+ margin-top: 10rem;
+ /* padding-left:10%;  */
+ /* padding-right:500px; */
+ background-color: rgb(225, 247, 247);
+}
+
+.title {
+  /* border-bottom: 2px solid brown; */
+  /* margin-right: 200px; */
+  width: 325px;
+  line-height: 60px;
+  margin-left: 35%;
+  text-align: center;
+}
+
+hr.new1 {
+  display: flex;
+  border-top: 5px solid red;
+  margin-left: 35%;
+}
+
+.container small {
+  padding: 40px;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.container input {
+  display: inline-block;
+  margin-left: 35%;
+  width: 325px;
+}
+
+.button {
+  margin-left: 35%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  text-align: right;
+  height: 30px;
+  width: 325px;
+}
+
+.button button {
+  height:30px;
+  width:60px;
+  background: linear-gradient(rgb(224, 89, 89),rgb(122, 94, 42));
+  border-radius: 5%;
+
+}
+
+.name {
+  width: 150%;
+}
+
+.email {
+  width: 150%;
+  margin-top: 1%;
+}
+
+.message {
+  width: 150%;
+  height: 25%;
+  margin-left: -25%;
+  margin-top: 1%;
+
+}
+
+.container textarea {
+  width: 325px;
+  height: 150px;
+  margin-left: 35%;
+}
+
+address { 
+  display: flex;
+  font-style: italic;
+  color: rgb(116, 108, 108);
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-weight: bold;
+} 
