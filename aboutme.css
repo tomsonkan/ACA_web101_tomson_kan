@@ -6,22 +6,60 @@
 }
  */
 
+body {
+  background-image: url(./cool-background.png);
+  
+}
+
  .title {
-   margin-top: 15%;
-   margin-left: 6%;
+   margin-bottom: 8%;
  }
+
+ .title span {
+   color: rgb(103, 66, 163);
+ }
+
+.container {
+  margin-top:4%;
+  margin-bottom: 10%;
+}
 
  .container code {
    line-height: 50px;
+   background: none;
+   font-size: 20px;
  }
+
+ .container li {
+  line-height: 20px;
+  margin-left: 4%;
+  background: none;
+  margin-bottom: 3%;
+  text-indent: -1.3em;
+}
 
  .about-icons ul {
    display: flex;
    height: 100px;
    list-style-type: none;
-   margin-left: 3%;
+   padding-left: 6%;
    padding-top: 2%;
-   padding-right: 50%;
+   padding-right: 60%;
    justify-content: space-between;
-   
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+   position: fixed; 
+   bottom:0%;
+   width:100%; 
+ }
+
+ blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+ }
+ .pic {
+   float: right;
+   margin-right: 5%;
+   margin-top: 5%;
+   opacity: 0.85;
+   border-radius: 5%;
+   width: 40%;
  }
