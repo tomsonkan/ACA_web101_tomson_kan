@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border1 {
+  position: relative;
+  display: flex;
+  height: 200PX;
+  flex-direction: row;
+  border: 2px solid blue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: aqua;
+}
+
+.border2 {
+  position: absolute;
+  bottom: -23px;
+  font-size: 60px;
+  color:white;
+  border: 2px solid brown;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  background-color: darkblue;
+}
+
+ul {
+  font-size: 20px;
+  list-style: none;
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  bottom: -30px;
+  background: rgb(230, 223, 223);
+  padding-top: 60PX;
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+  grid-template-columns: (4 , 1fr);
+  grid-template-rows: 200px 100px 100px 350px 75px;
+  grid-gap: 25px;
+  grid-template: "main main main main"
+                 "second third fourth fifth"
+                 "sixth seventh eight ninth"
+                 "feat feat style style"
+                 "feat feat lose lose";
+}
+
+.action {
+  padding-left: 550px;
+}
+
+.action > li{
+  border: 2px solid black;
+  border-radius: 10%;
+  background: rgb(196, 165, 165);
+  color: white;
+  padding: 10px;
+}
+
+.action li a {
+  text-decoration: none;
+}
+
+.action li a:hover {
+  text-decoration: underline;
+  color: rgb(151, 151, 182);
+}
+
+
+.item1 {
+  grid-area: main;
+  background-image: url("/src/img/NY-Salons.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 400px;
+  border: 2px solid gray;
+}
+
+.item1 > h1 {
+  margin-top: 150px;
+  margin-right: 20px;
+  float: right;
+  font-size: 30px;
+  color: white;
+  border: 2px solid gray;
+  background: gray;
+
+
+}
+
+.item2 {
+  grid-area: second;
+  background-image: url("/src/img/haircut1.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px blueviolet;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.item3 {
+  grid-area: third;
+  background-image: url("/src/img/haircut2.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px blueviolet;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.item4 {
+  grid-area: fourth;
+  background-image: url("/src/img/haircut3.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px blueviolet;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.item5 {
+  grid-area: fifth;
+  background-image: url("/src/img/haircut4.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px blueviolet;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.item10 {
+  grid-area: feat;
+  border: 2px solid brown;
+  padding: 10px;
+  
+}
+
+.item10 > .feat {
+  margin-top: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.border3 {
+  font-size: 24px;
+  color:white;
+  text-align: center;
+  border: 2px solid brown;
+  margin-top: -30;
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  background-color: darkblue;
+}
+
+.img-valign {
+  height: 200px; 
+  vertical-align: middle;
+}
+
+.met {
+  font-size: 20px;
+  float: right;
+  padding-right: 100px
+}
+
+.item11 {
+  position: relative;
+  grid-area: style;
+  border: 2px solid brown;
+  padding: 10px;
+  background: rgb(96, 96, 138);
+  
+}
+
+.item11 > h2 {
+ margin-top: 50px;
+ margin-right: 20px;
+ float: right;
+ color: white;
+}
+
+
+.border4 {
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid brown;
+  color:white;
+  margin-top: -30;
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  background-color: darkblue;
+}
+
+.hairp {
+  margin-top: 50px;
+  line-height: 24px;
+  color:white;
+
+}
+
+.item12 {
+  grid-area: lose;
+  border: 2px solid brown;
+  padding: 10px;
+  background: rgb(96, 96, 138);
+}
+
+.hairl  {
+  margin-top: 50px;
+  line-height: 24px;
+  color:white;
+}
+
+.foot {
+  text-align: center;
+  height: 100px;
+  padding-top: 35px;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(38, 136, 175);
+
+}
+
+@media (max-width: 480px) {
+
+  .container1 {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .action:hover li {
+    display: block;
+    filter: drop-shadow(-.5em .9em .4em
+    rgb(185, 156, 156));
+    border-radius: 5%;
+  
+  }
+
+  .action > li {
+    display: none;
+    height: 35px;
+    width: 150px;
+    position:right;
+    background-color: #c2d6b6;
+    min-width: 60px;
+    box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 56px;
+    z-index: 1;
+  }
