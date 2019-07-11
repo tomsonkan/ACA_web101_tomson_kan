@@ -79,7 +79,7 @@ ul {
 
 .item1 {
   grid-area: main;
-  background-image: url("/src/img/NY-Salons.jpg");
+  background-image: url("NY-Salons.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -101,7 +101,7 @@ ul {
 
 .item2 {
   grid-area: second;
-  background-image: url("/src/img/haircut1.jpg");
+  background-image: url("haircut1.jpg");
   background-size: cover;
   box-shadow: 0px 0px 10px blueviolet;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ ul {
 
 .item3 {
   grid-area: third;
-  background-image: url("/src/img/haircut2.jpg");
+  background-image: url("haircut2.jpg");
   background-size: cover;
   box-shadow: 0px 0px 10px blueviolet;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ ul {
 
 .item4 {
   grid-area: fourth;
-  background-image: url("/src/img/haircut3.jpg");
+  background-image: url("haircut3.jpg");
   background-size: cover;
   box-shadow: 0px 0px 10px blueviolet;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ ul {
 
 .item5 {
   grid-area: fifth;
-  background-image: url("/src/img/haircut4.jpg");
+  background-image: url("haircut4.jpg");
   background-size: cover;
   box-shadow: 0px 0px 10px blueviolet;
   background-repeat: no-repeat;
