@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://newwallpaperdownload.com/wallpapers/Desktop-Wallpaper-On-Wallpaper-Hd-1.png);
+    /* background-image: url(https://newwallpaperdownload.com/wallpapers/Desktop-Wallpaper-On-Wallpaper-Hd-1.png); */
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     width: 100vw;
@@ -11,6 +14,10 @@ body {
     width: 150px;
     height: 150px;
     margin: 3% 10%;
+    display: inline-block;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
   }
   
   header {
@@ -53,7 +60,8 @@ body {
     padding-bottom: 5%;
     text-align: center;
     border: 2px solid white;
-    transition:all 0.25s;
+    transition:all .5s;
+    
   }
   
   .has-border {
@@ -85,10 +93,14 @@ body {
     border-bottom: 2px solid #1940A9;;
   }
   
-  h2 {
+  .Desc {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
+    color:white;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
   }
   
   .small-text {
@@ -144,4 +156,18 @@ body {
     position: fixed;
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -2;
+  }
+
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-00px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
