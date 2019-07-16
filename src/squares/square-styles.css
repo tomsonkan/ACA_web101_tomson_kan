@@ -1,0 +1,77 @@
+.square {
+  border: 2px solid blue;
+  height: 50px;
+  width: 50px;
+  margin-left:45%;
+  margin-bottom:1%;
+}
+
+.odd {
+  transform: translateX(1);
+  transition: transform 2.5s ease;
+}
+.even {
+  transform: translateX(1);
+  transition: transform 2.5s ease;
+}
+
+.all-squares:hover > .odd {
+  transition: transform 5s ease;
+  transform: translateX(20em) scaleX(2) scaleY(2) rotate(360deg);
+}
+
+.all-squares:hover > .even {
+  transition: transform 5s ease;
+  transform: translateX(-20em) scaleX(0.5) scaleY(0.5) rotate(-360deg);
+}
+
+.square:nth-child(1) {
+  transform: translateX(1);
+  background: red;
+}
+
+.square:nth-child(2) {
+  transform: translateX(1);
+  background: blue;
+}
+
+.square:nth-child(3) {
+  background: green;
+}
+
+.square:nth-child(4) {
+  background: orange;
+}
+
+.square:nth-child(5) {
+  transform: translateX(1);
+  background: gray;
+}
+
+.square:nth-child(6) {
+  background: yellow;
+}
+
+.square:nth-child(7) {
+  background: purple;
+}
+
+.square:nth-child(8) {
+  background: black;
+}
+
+.square:nth-child(9) {
+  background: aquamarine;
+}
+
+.square:nth-child(10) {
+  background: fuchsia;
+}
+
+.square:nth-child(11) {
+  background: seagreen;
+}
+
+.square:nth-child(12) {
+  background: lightcoral;
+}
