@@ -110,6 +110,10 @@ video {
   rgb(197, 191, 191,.5))
 }
 
+.bar {
+  margin-top: -65px;
+}
+
 .contact {
   display: inline-block;
   margin: 1% 2% 2% 0;
@@ -124,7 +128,7 @@ video {
   color:white;
   display: inline-block;
   font-size: 20px;
-  margin: 1.5% 2% 1% 0;
+  margin: -1.5% 2% 1% 0;
   padding: 9px 20px;
   float: right;
   padding: 3px 10px;
@@ -138,8 +142,8 @@ video {
   background: darkcyan;
   float: right;
   font-size: 20px;
-  margin: 1.5% 1% 1% 0;
-  padding: 9px 20px;
+  /* margin: 1.5% 1% 1% 0;
+  padding: 9px 20px; */
   border: 3px solid blue;
   animation-name: jiggle;
   animation-duration: 1s;
@@ -147,16 +151,103 @@ video {
   animation-iteration-count: infinite;
 }
 
+.stick {
+  width: 40px;
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color:  #2DFDB9;
+  display: inline-block;
+  /* float: right; */
+}
+.stick:last-child {
+  margin-bottom: 0px;
+}
+
+.menu {
+  display: none;
+}
+
 @media (max-width: 600px) {
-  .nav {
-    clear: none;
-    float: left;
-    max-height: none;
+  .header {
+    padding-top: 40%;
   }
+  
+  .nav {
+    background: none;
+  }
+
   .nav .contact {
+    display: block;
+    margin-left: -5%;
+    height: 20px;
+    width: 20px;
+    padding-top: 50px;
+  }
+
+  .nav .bar {
+    width: 20px;
+    margin-top: -30%;
+    margin-right: 3%;
+    display: block;
+    float: right;
+  }
+
+  .contact2 {
+    display: none;
+    height: 65px;
+    width: 85px;
+    position:right;
+    background-color: #777d8b;
+    min-width: 60px;
+    text-align: center;
+    box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-right: 20px;
+    z-index: 1;
+  }
+
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: -45%;
+    width: 150%;
+    height: 150%;
+    background: #000;
+    /* position: fixed; */
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -100;
+  }
+  
+  .sm {
     display: none;
   }
+
+  .menu {
+    display: block;
+    float: right;
+    width: 20px;
+    margin-right: 20px;
+    margin-top: -340%;
+  }
+  
+  .nav:hover .contact2 {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .nav:hover .menu {
+    margin-top: -328px;
+  }
+  .main {
+
+    padding-top: 2%;
+    display: block;
+  }
 }
+
+
+
 
 
 
