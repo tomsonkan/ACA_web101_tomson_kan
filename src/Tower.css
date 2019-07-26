@@ -1,0 +1,110 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#currentTotal {
+  margin-left: 43%;
+  margin-bottom: 5%;
+  width:150px;
+  height:50px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 48px;
+}
+
+.container {
+  display: flex;
+  margin-left: 25%;
+  padding-bottom: -20%;
+  position: absolute;
+}
+
+
+[data-column] {
+  width: 30px;
+  height: 150px;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-right: 100px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px solid brown;
+}
+
+[data-column].red {
+  align-items: center;
+  background-color: #f6c5c5;
+  margin-right: 100px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px solid brown;
+}
+
+[data-column].yellow {
+  background-color: #ffffa9;
+  margin-right: 100px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px solid brown;
+}
+
+[data-column].green {
+  background-color: #baf6ba;
+  margin-right: 100px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px solid brown;
+}
+
+[data-column].blue {
+  background-color: aliceblue;
+  margin-right: 100px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px solid brown;
+}
+
+[data-color] {
+  width: 25px;
+  float: left;
+}
+
+[data-color="blue"] {
+  width: 10vw;
+  height: 20px;
+  background-color: blue;
+}
+
+[data-color="green"] {
+  width: 8vw;
+  height: 30px;
+  background-color: green;
+}
+
+[data-color="red"] {
+  width: 6vw;
+  height: 35px;
+  background-color: red;
+}
+
+[data-color="yellow"] {
+  width: 4vw;
+  height: 40px;
+  background-color: yellow;
+}
+
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
