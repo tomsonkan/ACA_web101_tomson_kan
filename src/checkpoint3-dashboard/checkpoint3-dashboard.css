@@ -1,9 +1,26 @@
+body {
+  background: #35d8c2;
+}
+
 #board {
   display: flex;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 5%;
   /* border: 10px solid black; */
 }
+
+h1 {
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.container {
+  margin-top: 50px;
+}
+
 .column {
   width: 7vw;
   height: 60vh;
@@ -13,6 +30,10 @@
   flex-direction: column;
   justify-content: flex-end;
   border: 5px solid brown;
+}
+
+.button {
+  padding-top: 20%;
 }
 
 .disc {

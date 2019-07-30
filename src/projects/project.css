@@ -52,7 +52,9 @@ main {
 }
 
 .project1 {
-  background: url ('https://external-preview.redd.it/ds0x4plV3E-hGhpL1FPvW_jAV08T8yyzWyWU8wsAOTM.jpg?auto=webp&s=61926cfc8e6107b4b21b6ad105d9fd2d05217707');
+  background-image: url ("../../src/hair/austin.jpg");
+  color:white;
+  background-size: 200px 200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 65% 35%;
@@ -66,7 +68,9 @@ main {
 }
 
 .project3 {
-  background: url ('http://unsplash.it/random');
+  background-image: url("../../src/hair/haircut1.jpg");
+  color:white;
+  background-size: 200px 200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 65% 35%;
@@ -94,6 +98,13 @@ main {
 }
 
 .project7 {
+  background: url ('http://unsplash.it/random');
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 65% 35%;
+}
+
+.project8 {
   background: url ('http://unsplash.it/random');
   display: grid;
   grid-template-columns: repeat(2, 1fr);
