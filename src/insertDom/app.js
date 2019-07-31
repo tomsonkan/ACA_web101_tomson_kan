@@ -63,13 +63,12 @@ console.log('rowDiv marker', rowDiv)
 
 projectsList.forEach(project => {
   console.log('project',project)
-  let cardTemplate = `<div class="card" style="width: 18rem;">
+  let cardTemplate = `<div class="card" style="width: 20rem;">
   <img class="card-img-top" src="${ project.url }" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">${ project.name }</h5>
     <p class="card-text">${ project.desc }</p>
-    <p class="card-text">${ project.desc }</p>
-    <a href="${ project.link }" class="btn btn-primary">Go somewhere</a>
+    <a href="${ project.link }" class="btn btn-primary">View online</a>
   </div>
 </div>`
   rowDiv.insertAdjacentHTML('beforeend', cardTemplate)
