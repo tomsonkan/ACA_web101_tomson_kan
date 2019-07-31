@@ -38,7 +38,7 @@ const projectsList = [
   {
     name: 'Towers Of Hanoi',
     desc: 'a lil description of something now here.',
-    url: '../projects/images/Towers of Hanoi.png',
+    url: '../../Towers of Hanoi.png',
     tags: '#css, #html, #bootstrap',
     link: "../Tower.html"
   },
@@ -52,7 +52,7 @@ const projectsList = [
   {
     name: 'Checkpoint3',
     desc: 'a lil description of something now here.',
-    url: '../projects/images/connect4.jpg',
+    url: '../../connect4.jpg',
     tags: '#css, #html, #bootstrap',
     link: "../checkpoint3-dashboard/checkpoint3-dashboard.html"
   },
